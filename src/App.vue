@@ -326,6 +326,50 @@ export default {
             lat: 31.040244,
           },
         ],
+        LingPao: [
+          {
+            type: "JiHe",
+            name: "颛桥万达店",
+            address: "上海市闵行区颛桥万达1楼1008铺零跑汽车",
+            lng: 121.406334,
+            lat: 31.071151,
+          },
+          {
+            type: "JiHe",
+            name: "马桥万达店",
+            address: "上海市闵行区马桥万达一楼1057零跑体验中心",
+            lng: 121.372951,
+            lat: 31.023398,
+          },
+          {
+            type: "JiHe",
+            name: "九亭金地广场店",
+            address: "上海市松江区沪亭北路99弄3号1楼L1026",
+            lng: 121.318799,
+            lat: 31.13923,
+          },
+          {
+            type: "JiHe",
+            name: "静安店",
+            address: "上海市静安区万荣路1150号",
+            lng: 121.440865,
+            lat: 31.292187,
+          },
+          {
+            type: "JiHe",
+            name: "五角场店",
+            address: "上海市杨浦区五角场万达B座1楼1137铺位零跑汽车",
+            lng: 121.513303,
+            lat: 31.301133,
+          },
+          {
+            type: "JiHe",
+            name: "嘉定宝龙城店",
+            address: "上海市嘉定区阿克苏路1099号宝龙广场一楼142室",
+            lng: 121.260559,
+            lat: 31.345639,
+          },
+        ],
       };
       this.map.on("click", () => this.infoWindow.close());
       const colorMap = {
@@ -333,7 +377,15 @@ export default {
         JiHe: "blue",
         AION: "yellow",
         R: "green",
+        LingPao: "orange"
       };
+      const nameMap = {
+        Beijing: "北",
+        JiHe: "几",
+        AION: "埃",
+        R: "R",
+        LingPao: "零"
+      }
       AMapUI.loadUI(["overlay/SimpleMarker"], (SimpleMarker) => {
         for (const brandName in this.location) {
           this.location[brandName].forEach((item) => {
@@ -341,7 +393,7 @@ export default {
 
             const marker = new SimpleMarker({
               position: new AMap.LngLat(item["lng"], item["lat"]), // 经纬度对象，也可以是经纬度构成的一维数组[116.39, 39.9]
-              iconLabel: brandName,
+              iconLabel: nameMap[brandName],
               iconTheme: "fresh",
               iconStyle: colorMap[brandName],
             });
