@@ -1,3 +1,9 @@
 module.exports = {
-    publicPath: '/carstore/'
+    publicPath: '/carstore/',
+    configureWebpack: {
+        externals: {
+            'AMap': 'AMap',
+            'AMapUI': 'AMapUI'
+        }
+    },
 }
