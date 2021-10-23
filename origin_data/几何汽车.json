@@ -1,0 +1,86 @@
+[
+  {
+    "DealerName": "上海晋熙汽车销售服务有限公司",
+    "Address": "上海市浦东新区沪南公路4777弄258号",
+    "BizPhone": "0-68041618",
+    "DealerId": 15459,
+    "Website": null,
+    "Coordinates": "121.594253,31.077434",
+    "City": "100005",
+    "CityName": "上海市",
+    "Province": "230",
+    "ProvinceName": "上海市"
+  },
+  {
+    "DealerName": "上海弘仁星品汽车销售服务有限公司",
+    "Address": "上海市杨浦区军工路1601号",
+    "BizPhone": "0-4008627988",
+    "DealerId": 15470,
+    "Website": null,
+    "Coordinates": "121.532118,31.27991",
+    "City": "100005",
+    "CityName": "上海市",
+    "Province": "230",
+    "ProvinceName": "上海市"
+  },
+  {
+    "DealerName": "上海明友泓浩汽车销售有限公司",
+    "Address": "上海市奉贤区南桥镇环城西路1488号",
+    "BizPhone": "021-54881180",
+    "DealerId": 18147,
+    "Website": null,
+    "Coordinates": "121.446832,30.933954",
+    "City": "100005",
+    "CityName": "上海市",
+    "Province": "230",
+    "ProvinceName": "上海市"
+  },
+  {
+    "DealerName": "上海天麦汽车销售服务有限公司",
+    "Address": "上海市静安区沪太路1111号",
+    "BizPhone": "63063638/63062183",
+    "DealerId": 18261,
+    "Website": null,
+    "Coordinates": "121.432944,31.285993",
+    "City": "100005",
+    "CityName": "上海市",
+    "Province": "230",
+    "ProvinceName": "上海市"
+  },
+  {
+    "DealerName": "上海浦之利汽车有限公司",
+    "Address": "上海市普陀区金沙江路2145号普罗娜广场B座一楼",
+    "BizPhone": "021-52996199",
+    "DealerId": 18045,
+    "Website": null,
+    "Coordinates": "121.374283,31.2424",
+    "City": "100005",
+    "CityName": "上海市",
+    "Province": "230",
+    "ProvinceName": "上海市"
+  },
+  {
+    "DealerName": "上海中隆汽车销售服务有限公司",
+    "Address": "上海闵行区中春路7169号",
+    "BizPhone": "54866988",
+    "DealerId": 20609,
+    "Website": null,
+    "Coordinates": "121.351842,31.146194",
+    "City": "100005",
+    "CityName": "上海市",
+    "Province": "230",
+    "ProvinceName": "上海市"
+  },
+  {
+    "DealerName": "上海吉庆新能源汽车销售有限公司",
+    "Address": "上海市松江区茸平路19号",
+    "BizPhone": "021-67890925",
+    "DealerId": 18005,
+    "Website": null,
+    "Coordinates": "121.261108,31.040244",
+    "City": "100005",
+    "CityName": "上海市",
+    "Province": "230",
+    "ProvinceName": "上海市"
+  }
+]

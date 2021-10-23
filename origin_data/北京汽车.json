@@ -1,0 +1,27 @@
+[
+    {
+        "id": 361206,
+        "sbuName": "东区",
+        "teamName": "苏沪",
+        "provinceCode": "310000",
+        "provinceName": "上海市",
+        "cityCode": "310114",
+        "cityName": "嘉定区",
+        "districtCode": "310114",
+        "districtName": "嘉定区",
+        "dealerName": "上海吉绅汽车销售服务有限公司",
+        "dealerShortName": "上海吉绅",
+        "dealerCode": "R310105",
+        "status": 10011001,
+        "dealerAddress": "上海市嘉定区江桥镇金园一路235号",
+        "salesPhone": "021-6913666",
+        "servicesPhone": "17740851259",
+        "longitude": "121.325308",
+        "latitude": "31.267141",
+        "dealerForm": "25551001|25551002",
+        "hasDefault": null,
+        "createTime": "2021-09-02T17:12:50.000+00:00",
+        "dealerType": null,
+        "email": "baic_xs_c0202@vip.sina.com"
+    }
+]
