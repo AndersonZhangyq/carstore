@@ -19,7 +19,7 @@ export default {
     this.map.on("complete", this.onComplete);
   },
   methods: {
-    openInfoWindow: function (item) {
+    openInfoWindow: function(item) {
       const selected = item["address"] + "<br/>" + item["name"];
       if (this.infoWindow == null) {
         this.infoWindow = new AMap.InfoWindow({
@@ -280,50 +280,50 @@ export default {
             type: "JiHe",
             name: "上海晋熙汽车销售服务有限公司",
             address: "上海市浦东新区沪南公路4777弄258号",
-            lng: 121.594253,
-            lat: 31.077434,
+            lng: 121.58815079679414,
+            lat: 31.07125350238548,
           },
           {
             type: "JiHe",
             name: "上海弘仁星品汽车销售服务有限公司",
             address: "上海市杨浦区军工路1601号",
-            lng: 121.532118,
-            lat: 31.27991,
+            lng: 121.52620859769735,
+            lat: 31.2731365414002,
           },
           {
             type: "JiHe",
             name: "上海明友泓浩汽车销售有限公司",
             address: "上海市奉贤区南桥镇环城西路1488号",
-            lng: 121.446832,
-            lat: 30.933954,
+            lng: 121.44084348799153,
+            lat: 30.92740536156965,
           },
           {
             type: "JiHe",
             name: "上海天麦汽车销售服务有限公司",
             address: "上海市静安区沪太路1111号",
-            lng: 121.432944,
-            lat: 31.285993,
+            lng: 121.42700529223337,
+            lat: 31.27930570100733,
           },
           {
             type: "JiHe",
             name: "上海浦之利汽车有限公司",
             address: "上海市普陀区金沙江路2145号普罗娜广场B座一楼",
-            lng: 121.374283,
-            lat: 31.2424,
+            lng: 121.3683003389103,
+            lat: 31.235786430141836,
           },
           {
             type: "JiHe",
             name: "上海中隆汽车销售服务有限公司",
             address: "上海闵行区中春路7169号",
-            lng: 121.351842,
-            lat: 31.146194,
+            lng: 121.34591649152894,
+            lat: 31.13932515515941,
           },
           {
             type: "JiHe",
             name: "上海吉庆新能源汽车销售有限公司",
             address: "上海市松江区茸平路19号",
-            lng: 121.261108,
-            lat: 31.040244,
+            lng: 121.25517310735152,
+            lat: 31.03346917498971,
           },
         ],
         LingPao: [
@@ -377,15 +377,15 @@ export default {
         JiHe: "blue",
         AION: "yellow",
         R: "green",
-        LingPao: "orange"
+        LingPao: "orange",
       };
       const nameMap = {
         Beijing: "北",
         JiHe: "几",
         AION: "埃",
         R: "R",
-        LingPao: "零"
-      }
+        LingPao: "零",
+      };
       AMapUI.loadUI(["overlay/SimpleMarker"], (SimpleMarker) => {
         for (const brandName in this.location) {
           this.location[brandName].forEach((item) => {
