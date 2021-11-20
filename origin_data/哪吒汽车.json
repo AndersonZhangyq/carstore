@@ -1,0 +1,102 @@
+[
+    {
+        "dealer_id": "185",
+        "dealer_code": "100213",
+        "dealer_name": "上海普陀近铁广场直营店",
+        "dealer_address": "上海市普陀区真北路818号北区一楼N-F1-01商铺",
+        "dealer_tel": "021-62153908",
+        "status": "10011001",
+        "map_position": "121.38852902001, 31.2382238350",
+        "distance": ""
+    },
+    {
+        "dealer_id": "769",
+        "dealer_code": "100456",
+        "dealer_name": "上海浦东尚悦湾直营店",
+        "dealer_address": "上海市浦东区银城路66号1楼109",
+        "dealer_tel": "17767181919",
+        "status": "10011001",
+        "map_position": "121.51701401643, 31.2461757839",
+        "distance": ""
+    },
+    {
+        "dealer_id": "261",
+        "dealer_code": "100339",
+        "dealer_name": "上海中柏汽车销售服务有限公司",
+        "dealer_address": "上海市松江区荣乐西路860号新理想广场1F-76",
+        "dealer_tel": "13818829888",
+        "status": "10011001",
+        "map_position": "121.20328252385, 31.0230424583",
+        "distance": ""
+    },
+    {
+        "dealer_id": "268",
+        "dealer_code": "100356",
+        "dealer_name": "上海古轩汽车销售服务有限公司",
+        "dealer_address": "上海市闵行区吴中路1588号爱琴海购物公园",
+        "dealer_tel": "021-54302120",
+        "status": "10011001",
+        "map_position": "121.37928509699, 31.1805491151",
+        "distance": ""
+    },
+    {
+        "dealer_id": "820",
+        "dealer_code": "100538",
+        "dealer_name": "上海浦东沪南公路直营店",
+        "dealer_address": "上海市浦东新区沪南公路4518号",
+        "dealer_tel": "18602191243",
+        "status": "10011001",
+        "map_position": "121.59058945973, 31.0896430499",
+        "distance": ""
+    },
+    {
+        "dealer_id": "824",
+        "dealer_code": "100551",
+        "dealer_name": "上海宝山江杨南路直营店",
+        "dealer_address": "上海市宝山区江杨南路1685号",
+        "dealer_tel": "13701961968",
+        "status": "10011001",
+        "map_position": "121.47352426194, 31.3443740727",
+        "distance": ""
+    },
+    {
+        "dealer_id": "152",
+        "dealer_code": "100204",
+        "dealer_name": "上海闵行虹桥天地直营店",
+        "dealer_address": "上海市闵行区绍虹路99号1层106室",
+        "dealer_tel": "021-34292680",
+        "status": "10011001",
+        "map_position": "121.32106304231, 31.1993818488",
+        "distance": ""
+    },
+    {
+        "dealer_id": "690",
+        "dealer_code": "100413",
+        "dealer_name": "上海杨浦万达直营店",
+        "dealer_address": "上海市国宾路58号万达广场B座1138号",
+        "dealer_tel": "15901806646",
+        "status": "10011001",
+        "map_position": "121.51986389066, 31.3068551551",
+        "distance": ""
+    },
+    {
+        "dealer_id": "196",
+        "dealer_code": "100244",
+        "dealer_name": "上海古道汽车销售服务有限公司",
+        "dealer_address": "上海闵行区都会路2058号1栋",
+        "dealer_tel": "021-54302120",
+        "status": "10011001",
+        "map_position": "121.42542296629, 31.0724812837",
+        "distance": ""
+    },
+    {
+        "dealer_id": "482",
+        "dealer_code": "100192",
+        "dealer_name": "上海英枫汽车销售服务有限公司",
+        "dealer_address": "上海市金山区枫泾镇朱枫公路9135号",
+        "dealer_tel": "18121158507",
+        "status": "10011001",
+        "map_position": "121.01946800033, 30.8999298460",
+        "distance": ""
+    }
+]

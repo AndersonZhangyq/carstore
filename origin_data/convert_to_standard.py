@@ -116,6 +116,29 @@ if __name__ == "__main__":
 
     with open("standard.json", "w+", encoding="utf-8") as f:
         json.dump(ret, f, ensure_ascii=False)
+    
+    # NeZha
+    with open("哪吒汽车.json", encoding="utf-8") as f:
+        data = json.load(f)
+    standard = []
+    for ele in data:
+        converted = convert(float(ele["map_position"].split(",")[0]), float(ele["map_position"].split(",")[1]))
+        if int(converted["status"]) != 1:
+            print(ele)
+            print(converted)
+        standard.append(
+            {
+                "type": "NeZha",
+                "name": ele["dealer_name"],
+                "address": ele["dealer_address"],
+                "lng": float(converted["locations"].split(',')[0]),
+                "lat": float(converted["locations"].split(',')[1]),
+            }
+        )
+    ret["NeZha"] = standard
+
+    with open("standard.json", "w+", encoding="utf-8") as f:
+        json.dump(ret, f, ensure_ascii=False)
 
     df = pd.DataFrame([i for v in ret.values() for i in v])
     df["coordinates"] = df["lng"].astype(str) + "," + df["lat"].astype(str)

@@ -19,7 +19,7 @@ export default {
     this.map.on("complete", this.onComplete);
   },
   methods: {
-    openInfoWindow: function(item) {
+    openInfoWindow: function (item) {
       const selected = item["address"] + "<br/>" + item["name"];
       if (this.infoWindow == null) {
         this.infoWindow = new AMap.InfoWindow({
@@ -370,6 +370,78 @@ export default {
             lat: 31.345639,
           },
         ],
+        NeZha: [
+          {
+            type: "NeZha",
+            name: "上海普陀近铁广场直营店",
+            address: "上海市普陀区真北路818号北区一楼N-F1-01商铺",
+            lng: 121.381916601714,
+            lat: 31.232581210368,
+          },
+          {
+            type: "NeZha",
+            name: "上海浦东尚悦湾直营店",
+            address: "上海市浦东区银城路66号1楼109",
+            lng: 121.510417370197,
+            lat: 31.24048316723,
+          },
+          {
+            type: "NeZha",
+            name: "上海中柏汽车销售服务有限公司",
+            address: "上海市松江区荣乐西路860号新理想广场1F-76",
+            lng: 121.196870980378,
+            lat: 31.016682878739,
+          },
+          {
+            type: "NeZha",
+            name: "上海古轩汽车销售服务有限公司",
+            address: "上海市闵行区吴中路1588号爱琴海购物公园",
+            lng: 121.372717030117,
+            lat: 31.174891889846,
+          },
+          {
+            type: "NeZha",
+            name: "上海浦东沪南公路直营店",
+            address: "上海市浦东新区沪南公路4518号",
+            lng: 121.584114183107,
+            lat: 31.083531492546,
+          },
+          {
+            type: "NeZha",
+            name: "上海宝山江杨南路直营店",
+            address: "上海市宝山区江杨南路1685号",
+            lng: 121.467023006608,
+            lat: 31.338313401928,
+          },
+          {
+            type: "NeZha",
+            name: "上海闵行虹桥天地直营店",
+            address: "上海市闵行区绍虹路99号1层106室",
+            lng: 121.314659896897,
+            lat: 31.193033817266,
+          },
+          {
+            type: "NeZha",
+            name: "上海杨浦万达直营店",
+            address: "上海市国宾路58号万达广场B座1138号",
+            lng: 121.51330804612,
+            lat: 31.301138875294,
+          },
+          {
+            type: "NeZha",
+            name: "上海古道汽车销售服务有限公司",
+            address: "上海闵行区都会路2058号1栋",
+            lng: 121.418977905008,
+            lat: 31.066319543733,
+          },
+          {
+            type: "NeZha",
+            name: "上海英枫汽车销售服务有限公司",
+            address: "上海市金山区枫泾镇朱枫公路9135号",
+            lng: 121.012875963331,
+            lat: 30.894266452245,
+          },
+        ],
       };
       this.map.on("click", () => this.infoWindow.close());
       const colorMap = {
@@ -378,6 +450,7 @@ export default {
         AION: "yellow",
         R: "green",
         LingPao: "orange",
+        NeZha: "lightgray",
       };
       const nameMap = {
         Beijing: "北",
@@ -385,6 +458,7 @@ export default {
         AION: "埃",
         R: "R",
         LingPao: "零",
+        NeZha: "哪",
       };
       AMapUI.loadUI(["overlay/SimpleMarker"], (SimpleMarker) => {
         for (const brandName in this.location) {
