@@ -19,6 +19,26 @@ def convert(lng, lat):
 
 if __name__ == "__main__":
     ret = {}
+
+    # BYD
+    with open("比亚迪汽车.json", encoding="utf-8") as f:
+        data = json.load(f)
+    standard = []
+    for ele in data:
+        try:
+            standard.append(
+                {
+                    "type": "BYD",
+                    "name": ele["short_name"],
+                    "address": ele["address"],
+                    "lng": float(ele["lng"]),
+                    "lat": float(ele["lat"]),
+                }
+            )
+        except:
+            print(ele)
+    ret["BYD"] = standard
+
     # AION
     with open("广汽埃安.json", encoding="utf-8") as f:
         data = json.load(f)
